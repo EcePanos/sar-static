@@ -1,4 +1,4 @@
-Name: 'SAR-Static'
+Name: 'sar'
 Description: 'SAR metadata collector'
 Datadir: 'sar_data'
 Datarepo: 'https://github.com/EcePanos/sar-static-data'
