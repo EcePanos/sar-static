@@ -1,0 +1,12 @@
+Name: 'SAR-Static'
+Description: 'SAR metadata collector'
+Datadir: 'sar_data'
+Datarepo: 'https://github.com/EcePanos/sar-static-data'
+Installer:
+   Command: 'bash'
+   Script: 'install.sh'
+Commands:
+  - Name: 'Run'
+    Description: 'Generate metadata csv'
+    Command: 'python'
+    Script: 'autocontents.py'
