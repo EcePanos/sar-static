@@ -1,7 +1,10 @@
 Name: 'sar'
 Description: 'SAR metadata collector'
-Datadir: 'sar_data'
-Datarepo: 'https://github.com/EcePanos/sar-static-data'
+Data:
+  Local: 'sar_data'
+  Repo:
+    Name: 'sar-static-data'
+    Remote: 'https://github.com/EcePanos/sar-static-data'
 Installer:
    Command: 'bash'
    Script: 'install.sh'
