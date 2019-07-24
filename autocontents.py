@@ -9,13 +9,14 @@ import datetime
 import sys
 import os
 
-path = os.path.dirname(os.path.realpath(__file__))
+#path = os.path.dirname(os.path.realpath(__file__))
 caps = ["CAPABILITY_IAM", "CAPABILITY_NAMED_IAM", "CAPABILITY_RESOURCE_POLICY", "CAPABILITY_AUTO_EXPAND"]
 
 def pullstatistics(stamp, custom):
 	neededpages = None
 
-	f = open("{}/sar_data/autocontents-{}.csv".format(path, stamp), "w")
+	#f = open("{}/sar_data/autocontents-{}.csv".format(path, stamp), "w")
+	f = open("sar_data/autocontents-{}.csv".format(stamp), "w")
 	w = csv.writer(f)
 
 	approx = 0
