@@ -11,5 +11,5 @@ Installer:
 Commands:
   - Name: 'Run'
     Description: 'Generate metadata csv'
-    Command: 'python'
+    Command: 'python3'
     Script: 'autocontents.py'
