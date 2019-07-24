@@ -4,7 +4,7 @@ Data:
   Local: 'sar_data'
   Repo:
     Name: 'sar-static-data'
-    Remote: 'https://github.com/EcePanos/sar-static-data'
+    Remote: 'git@github.com:EcePanos/sar-static-data.git'
 Installer:
    Command: 'bash'
    Script: 'install.sh'
